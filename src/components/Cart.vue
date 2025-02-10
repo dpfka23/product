@@ -85,6 +85,12 @@
           gap: 1rem;
           align-items: center;          
           padding: 1rem;
+          img{
+            width: auto;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 5px;
+          }
         }
       }
     }
