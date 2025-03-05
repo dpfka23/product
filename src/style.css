@@ -5,3 +5,44 @@
 ul,li{
   list-style: none;
 }
+a{
+  text-decoration: none;
+}
+body{
+  background-color: rgb(255, 212, 70);
+}
+.router-link > a{
+  margin: 1rem;
+  color: #222;
+  font-size: 16px;
+}
+.router-link > a:nth-child(1){
+  padding: 7px 16px;
+  background-color: rgb(116, 70, 2);
+  border-radius: 50px;
+  color: #fff;
+}
+.router-link > a:nth-child(2){
+  padding: 7px 16px;
+  background-color: rgb(201, 36, 15);
+  border-radius: 50px;
+  color: #fff;
+}
+
+.card > p{
+  margin: 5px;
+  font-size: 20px;
+}
+.card > button {
+  margin-top: 5px;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 50px;
+}
+.card > button:hover{
+  background-color: rgba(248, 48, 48, 0.8);
+} 
+.cart{
+  background-color: #fff;
+  border: none;
+}
